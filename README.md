@@ -7,9 +7,9 @@ What does it do?
 Requirements:
   Due to the fact that Linux HASP4 API is old enough and any longer unsupported by vendor only 32-bits Linux API library is available. So, to run it on x64 system you've gotta install i386 support. Do somethig like this:
   
-  $ sudo dpkg --add-architecture i386
-  $ sudo apt-get update
-  $ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+$ sudo dpkg --add-architecture i386
+$ sudo apt-get update
+$ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
 
 Also the API mentioned above works via licence manager API. Hasplm and aksusbd drivers must be installed on a computer usbhaspinfo runs.
 
